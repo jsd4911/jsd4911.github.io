@@ -127,7 +127,7 @@ function loadLabel() {
       console.log(label)
       const descriptions = []
       let imgFileName
-      for (let i = 1; i <= 3; i++) {
+      for (let i = 1; i <= 10; i++) {
         try {
           imgFileName = `images/${label}/${i}.jpg`;
           img = await faceapi.fetchImage(imgFileName)
